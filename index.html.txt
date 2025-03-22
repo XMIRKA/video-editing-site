@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профессиональный видеомонтаж | Fiverr</title>
+    <meta name="description" content="Профессиональный видеомонтаж для YouTube, TikTok и бизнеса. Быстрая доставка и высокое качество!">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #121212;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 90%;
+            width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 1s forwards;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        h1 {
+            color: #00ffcc;
+            font-size: 32px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #00ffcc;
+            color: #121212;
+            padding: 15px 30px;
+            font-size: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s ease-in-out;
+            box-shadow: 0px 4px 10px rgba(0, 255, 204, 0.5);
+        }
+        .cta-button:hover {
+            background-color: #00cca3;
+            transform: scale(1.05);
+            box-shadow: 0px 6px 15px rgba(0, 255, 204, 0.8);
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 26px;
+            }
+            p {
+                font-size: 16px;
+            }
+            .cta-button {
+                font-size: 18px;
+                padding: 12px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Профессиональный видеомонтаж</h1>
+        <p>Нужен качественный монтаж для YouTube, TikTok или бизнеса? Я сделаю профессиональный монтаж, нарезку, переходы и многое другое!</p>
+        <p>Быстрая доставка, отличное качество и профессиональный сервис.</p>
+        <a href="YOUR_FIVERR_LINK" class="cta-button" target="_blank" rel="noopener noreferrer">Заказать на Fiverr</a>
+    </div>
+</body>
+</html>
